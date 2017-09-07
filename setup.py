@@ -32,5 +32,5 @@ setup(
     # ripiu is an implicit namespace package, so I need python>=3.3
     python_requires='>=3.3',
     include_package_data=True,
-    # zip_safe=False,
+    zip_safe=False,
 )
