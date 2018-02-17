@@ -5,7 +5,7 @@ from ripiu.cmsplugin_iubenda import __version__
 setup(
     name='ripiu.cmsplugin_iubenda',
     version=__version__,
-    url='https://github.com/ripiu/ripiu.cmsplugin_iubenda',
+    url='https://github.com/ripiu/cmsplugin_iubenda',
     license='BSD-new',
     description='Django CMS Iubenda integration',
     long_description=open('README.rst').read(),
