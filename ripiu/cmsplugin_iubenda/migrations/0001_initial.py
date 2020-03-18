@@ -14,7 +14,7 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='IubendaStandardPluginModel',
             fields=[
-                ('cmsplugin_ptr', models.OneToOneField(primary_key=True, serialize=False, auto_created=True, related_name='cmsplugin_iubenda_iubendastandardpluginmodel', parent_link=True, to='cms.CMSPlugin')),
+                ('cmsplugin_ptr', models.OneToOneField(primary_key=True, serialize=False, auto_created=True, related_name='cmsplugin_iubenda_iubendastandardpluginmodel', parent_link=True, to='cms.CMSPlugin', on_delete=models.CASCADE)),
                 ('user_id', models.CharField(verbose_name='user id', max_length=400, default='', help_text='Your user ID on Iubenda')),
             ],
             options={
